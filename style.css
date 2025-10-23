@@ -83,10 +83,10 @@ a {
 .tile5 { background: #CE9292; box-shadow: 0 15px #C48080;}
 .tile6 { background: #C48080; box-shadow: 0 15px #776262;}
 
-.contact { font-size: 43px; margin-top: 100px; }
+.contact { font-size: 43px; margin-top: 40px; }
 .contact a{ text-decoration: underline; }
-.rights { font-size: 25px; margin-bottom: 0px; }
-.footnote { margin-top: 0px; font-size: 25px; }
+.rights { font-size: 25px; margin-bottom: 0px; margin-top: 60px;}
+.footnote { margin-top: 1px; font-size: 25px; }
 .footnote a { font-family: "orbitron", sans-serif;letter-spacing: 2px; font-weight: bold }
 
 @media (min-width: 1000px) {
