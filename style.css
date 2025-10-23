@@ -1,17 +1,24 @@
 
 /* ALL OF THE PAGE */
 body {
-    max-width: 400px;
+    text-align: center;
+    background-color: #FFF3F3;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
     width: 100%;
     padding: 24px;
     text-align: center;
-    background-color: #FFF3F3;
 }
 
 /* LOGO */
 .logo {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin-top: 20px;
 }
 
 /* ICON */
