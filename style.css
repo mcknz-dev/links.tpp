@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Cocogoose";
+    src: url("assets/Cocogoose-Pro-Regular.otf") format("opentype");
+}
+
 
 /* ALL OF THE PAGE */
 body {
@@ -7,7 +12,13 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
-    color: white;
+    font-family: "Cocogoose", sans-serif;
+
+}
+
+a {
+    color: #332325;
+    text-decoration: none;
 }
 
 .container {
@@ -25,11 +36,9 @@ body {
 
 /* ICON */
 .icon {
-    height: 40%;
-    width: 40%;
+    width: 50%;
     border-radius: 50%;
     padding: 4%;
-    margin-bottom: 20px;
 
 }
 
@@ -37,9 +46,10 @@ body {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 100px;
     font-size: 120px;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 /* TILES */
@@ -48,7 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 40px;
+    gap: 50px;
 }
 
 .tiles a {
@@ -56,12 +66,30 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 50px;
 }
 
-.tile1 { background: #F6DAD8;  width: 85%; padding: 25px; border-radius: 40px; }
-.tile2 { background: #ECC8C6;  width: 85%; padding: 25px; border-radius: 40px; }
-.tile3 { background: #E2B6B5;  width: 85%; padding: 25px; border-radius: 40px; }
-.tile4 { background: #D8A4A3;  width: 85%; padding: 25px; border-radius: 40px; }
-.tile5 { background: #CE9292;  width: 85%; padding: 25px; border-radius: 40px; }
-.tile6 { background: #C48080;  width: 85%; padding: 25px; border-radius: 40px; }
+.tile1 { background: #F6DAD8;  width: 85%; padding: 30px; border-radius: 40px; box-shadow: 0 15px #ECC8C6; }
+.tile2 { background: #ECC8C6;  width: 85%; padding: 30px; border-radius: 40px; box-shadow: 0 15px #E2B6B5;}
+.tile3 { background: #E2B6B5;  width: 85%; padding: 30px; border-radius: 40px; box-shadow: 0 15px #D8A4A3;}
+.tile4 { background: #D8A4A3;  width: 85%; padding: 30px; border-radius: 40px; box-shadow: 0 15px #CE9292;}
+.tile5 { background: #CE9292;  width: 85%; padding: 30px; border-radius: 40px; box-shadow: 0 15px #C48080;}
+.tile6 { background: #C48080;  width: 85%; padding: 30px; border-radius: 40px; box-shadow: 0 15px #776262;}
+
+.contact {
+    font-size: 43px;
+    margin-top: 100px;
+}
+.contact a{
+    text-decoration: underline;
+}
+
+.rights {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.footnote {
+    margin-top: 0px;
+    font-size: 25px;
+}
