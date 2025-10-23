@@ -93,3 +93,76 @@ a {
     margin-top: 0px;
     font-size: 25px;
 }
+
+@media (min-width: 1000px) {
+    body {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 60%;
+        margin: 0 auto;
+        padding: 48px;
+    }
+
+    .logo {
+        width: 350px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        width: 170px;
+        padding: 10px;
+    }
+
+    .social-icons {
+        font-size: 90px;
+        gap: 65px;
+    }
+
+    .tiles {
+        gap: 32px;
+        width: 100%;
+    }
+
+    .tiles a {
+        font-size: 32px;
+    }
+
+    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6 {
+        width: 54%;
+        padding: 32px 0;
+        margin: 0 auto;
+        border-radius: 50px;
+    }
+
+    .contact, .rights, .footnote {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .tiles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px 56px;
+        width: 80%;
+        margin: 0 auto;
+        justify-items: center;
+    }
+    .tiles > a, .tiles > .tile1, .tiles > .tile2, .tiles > .tile3,
+    .tiles > .tile4, .tiles > .tile5, .tiles > .tile6 {
+        width: 100%; /* Fill grid cell */
+        max-width: 500px; /* Max "long and pretty" width */
+        padding: 32px 24px; /* More horizontal padding for elongation */
+        font-size: 2rem;
+        border-radius: 48px;
+        word-break: normal;
+        white-space: normal;
+        margin: 0; /* Remove gaps (now using grid gap) */
+        box-sizing: border-box;
+    }
+}
+
+
