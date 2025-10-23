@@ -1,0 +1,34 @@
+
+/* ALL OF THE PAGE */
+body {
+    max-width: 400px;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    background-color: #FFF3F3;
+}
+
+/* LOGO */
+.logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* ICON */
+.icon {
+    height: auto;
+    width: 110px;
+    border-radius: 50%;
+    padding: 4%;
+    margin-bottom: 20px;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 40px;
+
+
+}
