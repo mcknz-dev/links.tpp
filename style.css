@@ -17,25 +17,30 @@ body {
 
 /* LOGO */
 .logo {
-    width: 80%;
-    margin-top: 20px;
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 /* ICON */
 .icon {
-    height: auto;
-    width: 110px;
+    height: 40%;
+    width: 40%;
     border-radius: 50%;
     padding: 4%;
     margin-bottom: 20px;
+
 }
 
 /* SOCIAL ICONS */
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    font-size: 40px;
+    gap: 70px;
+    font-size: 120px;
+}
 
-
+/* TILES */
+.tiles a{
+    display: block;
 }
